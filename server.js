@@ -11,7 +11,7 @@ app.use(express.json());
 const dbConfig = {
   user: 'sa',
   password: '111',
-  server: '192.168.1.124', // IP del servidor SQL
+  server: '192.168.1.78', // IP del servidor SQL
   database: 'girosoft',
   options: {
     encrypt: false,
